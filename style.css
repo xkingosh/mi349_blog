@@ -1,0 +1,27 @@
+html{
+    background:chartreuse
+}
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+    padding: 40px;
+    border-top: 10px solid rgba(10, 10, 10, 0.822);
+    background: #fff
+}
+
+
+h1 {
+    font-size: 5em;
+    margin: 0
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0
+}
+#blog {
+    border-top: 1px dotted chartreuse;
+}
+.blog-post {
+border-bottom: 1px dotted #ccc;
+}
