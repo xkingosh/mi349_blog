@@ -25,15 +25,39 @@ h2 {
 .blog-post {
 border-bottom: 1px dotted #ccc;
 }
-.img-container {
-    background:chartreuse;
-    height: 40px;
-    width: 40px;
-    float: left;
-    margin-right: 20px;
+.featured img {
+    height: 100px;
+    width: 200px;
+    float: right;
+    margin-right: 10px;
 
 }
-.blog-stats {
+
+.stats {
+    display: flex;
+    background: #ccc;
+}
+
+article {
+    background: #999;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+article:nth-of-type(1) {
+    flex: 1;
+}
+
+article:nth-of-type(2) {
+    flex: 3;
+}
+
+article:nth-of-type(3) {
+    flex: 1;
+}
+
+.cfb {
     display: flex;
     background: #ccc;
 }
