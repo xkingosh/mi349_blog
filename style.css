@@ -25,3 +25,15 @@ h2 {
 .blog-post {
 border-bottom: 1px dotted #ccc;
 }
+.img-container {
+    background:chartreuse;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 20px;
+
+}
+.blog-stats {
+    display: flex;
+    background: #ccc;
+}
