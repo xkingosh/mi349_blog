@@ -61,3 +61,14 @@ article:nth-of-type(3) {
     display: flex;
     background: #ccc;
 }
+
+@media (max-width: 400px) {
+    .stats {
+        background-color: cadetblue;
+
+    }
+
+    html {
+        background: cadetblue;
+    }
+}
